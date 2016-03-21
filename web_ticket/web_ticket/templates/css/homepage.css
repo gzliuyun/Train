@@ -1,0 +1,44 @@
+/* CSS Document */
+
+	body,html{
+		margin:0px;
+		height:100%;
+	}
+.homepage-container {
+  width: 960px;
+  height:inherit;
+  background-color: #F7F7F7;
+  margin: 0 auto;
+}
+.container button{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+#top{
+	width:960px;
+	height:149px;
+	padding:0px;
+	overflow:hidden;
+
+}
+#midd{
+	width:960px;
+	height:625px;
+	padding:0px;
+	
+}
+#left{
+	background-color: #7dc2df;
+	height:638px;
+}
+#right{
+	height:638px;
+	padding:0px;
+}
+#slid{
+	height:350px;
+	padding:0px;
+	border：0px;
+}
+
+

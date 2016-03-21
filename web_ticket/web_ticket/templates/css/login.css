@@ -1,0 +1,22 @@
+
+
+/****** LOGIN MODAL ******/
+.login-container {
+  padding: 30px;
+  max-width: 350px;
+  width: 100% !important;
+  background-color: #F7F7F7;
+  margin: 30% auto;
+  border-radius: 2px;
+  overflow: hidden;
+  font-family: roboto;
+}
+
+.login-container input[type=text], input[type=password] {
+  height: 44px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+
+

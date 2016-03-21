@@ -1,0 +1,34 @@
+/* CSS Document */
+
+body,html{
+	margin:0px;
+	height:100%;
+}
+.homepage-container {
+  width: 960px;
+  height:inherit;
+  background-color: #F7F7F7;
+  margin: 0 auto;
+}
+.div_tp{
+	margin-top: 30px;
+}
+#top{
+	width:960px;
+	height:149px;
+	padding:0px;
+	overflow:hidden;
+}
+#left{
+	background-color: #7dc2df;
+	height:638px;
+}
+#right{
+	height:638px;
+	padding:0px;
+	background-color: #F7F7F7;
+}
+
+#inform{
+	margin-top: 80px;
+}

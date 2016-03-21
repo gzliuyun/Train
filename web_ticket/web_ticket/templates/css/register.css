@@ -1,0 +1,33 @@
+/* CSS Document */
+
+.arround{
+  padding: 0px;
+  max-width: 800px;
+
+  background-color: #F7F7F7;
+  margin: 2% auto;
+}
+.register-container {
+  padding: 20px;
+  max-width: 500px;
+
+  margin: 5% auto;
+}
+.register-container input[type=text], input[type=password] {
+
+  margin-bottom: 10px;
+}
+.x-fieldset{
+	border:10px
+	solid #7dc2df;
+	padding:10px;
+	margin-bottom:0px;
+	display:block;
+	margin-top: 0px;
+}
+legend.scheduler-border {
+	font-size: 1.8em !important;
+    width:inherit; /* Or auto */
+    padding:0 10px; /* To give a bit of padding on the left and right */
+    border-bottom:none;
+}

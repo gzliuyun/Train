@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>register</title>
+   <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+   <link rel="stylesheet" href="../static/css/register.css">
+</head>
+<body>
+	<div class="container arround">
+    	<fieldset class="x-fieldset">
+    		<legend class="scheduler-border">输入您的账户信息</legend>
+			<div class="register-container container">
+				<form action="" class="form-horizontal" role="form">
+            		<div class="form-group">
+                		<div class="col-md-3">
+                			<font color="red">*</font>
+                			<label for="usertname" class=" control-label">用户名:</label>
+                    	</div>
+                    	<div class="col-md-7">
+   							<input type="text" class=" form-control" id ="username" name="username" placeholder="6位以上字符" onKeyUp=check_username(this.id)>
+                		</div>
+                    	<div class="col-md-2">
+                    		<span id="user_name"></span>
+                    	</div>
+                	</div>
+					<div class="form-group">
+                		<div class="col-md-3">
+                			<font color="red">*</font>
+                			<label for="password" class=" control-label">登陆密码:</label>
+   						</div>
+                    	<div class="col-md-7">
+                    		<input type="password" class=" form-control" id="password" name="password" placeholder="6-20位字母、数字或符号" onKeyUp=check_password(this.id)>
+                		</div>
+                    	<div class="col-md-2">
+                        	<span id="pass_word"></span>
+                    	</div>
+                	</div>
+                	<div class="form-group">
+                		<div class="col-md-3">
+                			<font color="red">*</font>
+                			<label for="surepassword" class=" control-label">确认密码:</label>
+   						</div>
+                    	<div class="col-md-7">
+                    		<input type="password" class=" form-control" id="surepassword" name="surepassword" placeholder="再次输入您的登陆密码" onKeyUp=check_surepassword(this.id) >
+                		</div>
+                    	<div class="col-md-2">
+                        	<span id="sure_password"></span>
+                    	</div>
+                	</div>
+                	<div class="form-group">
+                		<div class="col-md-3">
+                			<font color="red">*</font>
+                			<label for="realname" class=" control-label">姓名:</label>
+   						</div>
+                    	<div class="col-md-7">
+                    		<input type="text" class=" form-control" id="realname" name="realname" placeholder="请输入您的真实姓名" onKeyUp=check_realname(this.id)>
+                		</div>
+                    	<div class="col-md-2">
+                        <span id="real_name"></span>
+                    	</div>
+                	</div>
+                	<div class="form-group">
+                		<div class="col-md-3">
+                			<font color="red">*</font>
+                			<label for="idcard" class=" control-label">证件号码:</label>
+   						</div>
+                    	<div class="col-md-7">
+                    		<input type="text" class=" form-control" id="idcard" name="idcard" placeholder="请输入您的身份证号码" onKeyUp=check_idcard(this.id)>
+                		</div>
+                    	<div class="col-md-2">
+                        	<span id="id_card"></span>
+                    	</div>
+                	</div>
+                	<div class="form-group">
+                		<div class="col-md-3">
+                			<font color="red">*</font>
+                			<label for="phonenumber" class=" control-label">手机号码:</label>
+   						</div>
+                    	<div class="col-md-7">
+                    		<input type="text" class=" form-control" id="phonenumber" name="phonenumber" placeholder="请输入您的手机号码" onKeyUp=check_phonenumber(this.id)>
+                		</div>
+                    	<div class="col-md-2">
+                        	<span id="phone_number"></span>
+                    	</div>
+                	</div>
+                 	<div class="form-group">
+                		<div class="col-md-3">
+                			<label for="mail" class=" control-label">邮箱:</label>
+   						</div>
+                    	<div class="col-md-7">
+                    		<input type="text" class=" form-control" id="mail" name="mail" placeholder="请正确填写邮箱地址" onKeyUp=check_email(this.id)>
+                		</div>
+                    	<div class="col-md-2">
+                        	<span id="e_mail"></span>
+                    	</div>
+                	</div>
+                	<div class="form-group">
+                		<div align="center" class="col-md-12">
+                			<button type="submit" name="sure" class ="btn btn-primary" onclick="return enter()">确认注册</button>
+                    	</div>
+                	</div>
+				</form>
+			</div>
+    	</fieldset>
+	</div>
+   <script src="../static/jquery/jquery-2.1.4.min.js"></script>
+   <script src="../static/js/bootstrap.min.js"></script>
+   <script src="../static/js/register.js"></script>
+</body>
+</html>

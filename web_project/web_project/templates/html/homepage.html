@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>铁路客服服务中心</title>
+   <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+   <link rel="stylesheet" href="../static/css/homepage.css">
+   <link href="../static/css/bootstrap-datetimepicker.min.css" rel="stylesheet" media="screen">
+</head>
+<body>
+<div class="container">
+	<div class=" homepage-container">
+    	<div class="container" id="top">
+    		<img src="../static/photoes/headimage.jpg" id="headimage" >
+    	</div>
+        <div class="container" id="midd">
+        	<div class="col-md-3" id="left">
+            	<button type="button" name="login" class ="btn btn-primary btn-lg btn-block" onClick="location.href='../login'">登陆</button>
+
+        		<button type="button" name="login" class ="btn btn-primary btn-lg btn-block" onClick="location.href='../register'">注册</button>
+                <div class="control-group " >
+                	<br /><br />
+                	<label class="control-label">当前日期:</label>
+               		<div class="controls input-append date form_date" data-date="" data-date-format="dd MM yyyy" data-link-field="dtp_input2" data-link-format="yyyy-mm-dd" align="center">
+                	</div>
+           		</div>
+        	</div>
+            <div id="right" class="list-group col-md-9">
+				<div id="myCarousel" class="carousel slide">
+   					<!-- 轮播（Carousel）指标 -->
+   					<ol class="carousel-indicators">
+      					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      					<li data-target="#myCarousel" data-slide-to="1"></li>
+      					<li data-target="#myCarousel" data-slide-to="2"></li>
+   					</ol>   
+   					<!-- 轮播（Carousel）项目 -->
+   					<div class="carousel-inner" id="slid">
+      					<div class="item active">
+         					<img src="../static/photoes/slide1.jpg" alt="First slide">
+      					</div>
+      					<div class="item">
+         					<img src="../static/photoes/slide2.jpg" alt="Second slide">
+      					</div>
+      					<div class="item">
+         					<img src="../static/photoes/slide3.jpg" alt="Third slide">
+      					</div>
+   					</div>
+   					<!-- 轮播（Carousel）导航 -->
+   					<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+   					<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+				</div>
+                <div id="news">
+                	<a href="#" class="list-group-item active">最新动态、公告</a>
+   					<a href="#" class="list-group-item">关于部分旅客列车春运期间车票恢复发售时间的公告(2015-12-10)</a>
+   					<a href="#" class="list-group-item">关于2016年春运火车票发售时间的公告(2015-12-1)</a>
+   					<a href="#" class="list-group-item">关于调整互联网、电话订票时间的公告(2015-11-26)</a>
+                   	<a href="#" class="list-group-item">广铁集团关于2015年12月26日海口东开D7313次旅客列车临时停运的通知(2015-12-26)</a>
+   					<a href="#" class="list-group-item">成都铁路局关于成渝高铁开行公告（重庆北——成都东）(2015-12-25)</a>
+                    <a href="#" class="list-group-item">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;更多>>></a>
+                </div>
+        	</div> 
+		</div>
+</div>
+<script src="../static/jquery/jquery-2.1.4.min.js"></script>
+<script src="../static/js/bootstrap.min.js"></script>
+<script src="../static/js/homepage.js"></script>
+<script type="text/javascript" src="../static/js/bootstrap-datetimepicker.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../static/js/bootstrap-datetimepicker.zh-CN.js" charset="UTF-8"></script>
+<script type="text/javascript">
+	$('.form_date').datetimepicker({
+        language: 'zh-CN',
+        weekStart: 1,
+        todayBtn:  1,
+		autoclose: 1,
+		todayHighlight: 1,
+		startView: 2,
+		minView: 2,
+		forceParse: 0
+    });
+
+</script>
+</body>
+</html>
